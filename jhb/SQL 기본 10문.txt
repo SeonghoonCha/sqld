@@ -1,0 +1,50 @@
+1. SQL 명령어의 종류로 틀린것은?
+	가. DML - 데이터 조작어
+	나. DDL - 데이터 정의어
+	다. DCL - 데이터 제어어
+	라. TSL - 트랜잭션 제어어 -
+	
+2. 테이블 생성시 주의 사항으로 틀린것은?
+	가. 테이블 명은 다른 테이블명과 중복 되지 않아야 한다.
+	나. 특수문자는 테이블명에 사용 할 수 없다. -
+	다. 벤더에서 사전에 정의한 예약어는 쓸 수 없다.
+	라. 테이블명의 시작은 반드시 문자로 시작되야 한다.
+	
+3. Table 의 Column 수정시 틀리 설명은?
+	가. 해당 칼럼 데이터 타입은 변경 할 수 없다. -
+	나. DEFAULT 값을 바꾸면 작업 이후에 발생하는 행 삽입에만 영향을 미친다.
+	다. 해당 칼럼에 NULL 이 없을경우에만 NOT NULL 조건을 추가 할 수 있다.
+	라. 해당 칼럼이 NULL값 만을 가지고 있으면 칼럼의 크기를 늘릴 수 있다
+	
+4. 트랜잭션의 특징이 아닌것은?
+	가. 명시성 -
+	나. 원자성
+	다. 고립성
+	라. 지속성
+
+5. 'SVAEPOINT SVP1;' 이라고 SAVEPINT를 지정했다. 해당 지점으로 ROLLBACK 하는 쿼리는?
+	ROLLBAKC TO SVP1 -
+	
+6. SQL 연산자가 아닌것은?
+	가. BETWEEN
+	나. IN
+	다. LIKE
+	라. AND -
+	
+7. 연산자의 우선순위가 올바른것은?
+	가. 괄호 - NOT 연산자 - 비교 연산자 - OR - AND
+	나. 괄호 - NOT 연산자 - 비교 연산자 - AND - OR  -
+	다. 괄호 - 비교 연산자 - NOT 연산자 - AND - OR
+	라. 괄호 - 비교 연산자 - NOT 연산자 - OR - AND
+
+8. 제약 조건중 입력 할 수 있는 갑의 범위를 제안하는 제약 조건은?
+	가. NOT NULL
+	나. CHECK
+	다. UNIQUE KEY
+	라. FOREING KEY
+	
+9. 'CARTE TABLE SQLD (CBC VARCAHR(2));' 라는 테이블이 있다. 해당 테이블의 컬럼명 CBC 를  ABC 로 변경하는 쿼리는?
+	- ALTER TLABE SQLD RENAME COLUMN CBC TO ABC; -
+	
+10. 'CARTE TABLE SQLD (CBC VARCAHR(2));' 라는 테이블이 있다. 해당 테이블명 SQLD 를  SQL 로 변경하는 쿼리는?
+	- RENAME SQLD TO SQL;
