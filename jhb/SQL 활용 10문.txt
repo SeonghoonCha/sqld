@@ -1,0 +1,60 @@
+1. UNION 연산과 UNION ALL 연산의 차이점으로 알맞은것은?
+    가. UNION ALL 은 중복된 데이터도 그대로 보여준다.
+    나. UNION 은 중복된 데이터도 그대로 보여준다.
+    다. UNION ALL 은 수학적 합집합을 제공하기 위해 사전 작업으로 시스템에 부하를 주는 정렬 작업이다.
+    라. UNION 정렬 작업이 발생하지 않아 응답 속도 향상이나 자원 효울화측면에서 UNION ALL 보다 뛰어나다.
+
+2. SELECT A.C FROM A WHERE A.A = '123' GROUP BY A.C HAVING COUNT(A.C) > 10 ORDER BY A.C DESC 와 같은 구문에서 쿼리가 실행되는
+  순서로 틀린것은?
+    가. 1 - FROM
+    나. 2 - WHERE
+    다. 3 - GROUP BY
+    라. 4 - FROM
+
+3. 계층 쿼리에 대한 설명으로 틀린것은?
+    가. START WITH 절은 전개의 시작 위치를 지정 하는구문이다.
+    나. CONNECT BY 절은 다음에 전개될 자식 데이터를 지정 하는 구문
+    다. PRIOR 절은 CONNECT BY 절에 사용되며 부모 = 자식 형태를 사용하면 순방향 전개를 한다.
+    라. NOCYCLE 절은 사이클이 발생한 이후의 데이터는 전개 하지 않는다.
+
+4. 서브쿼리가 사용 가능한 곳이 아닌곳은?
+    가. SELECT
+    나. FROM
+    다. GROUP BY
+    라. ORDER BY
+
+5. 다중행 서브쿼리 비교 연산자의 설명으로 틀린것은?
+    가. IN - 서브쿼리의 결과에 존재하는 임의의 값과 동일한 조건을 의미 한다.
+    나. ALL - 모든 값을 만족하는 조건
+    다. ANY - 서브쿼리의 결과에 존재하는 어느 하나의 값이라도 만족하는 조건.
+    라. EXISTS 결과를 만족하는 값이 존재하는지 여부를 확인한다. 조건에 만족하는 결과 값을 리턴한다.
+
+6. VIEW의 장점의 설명으로 틀린것은?
+    가. 독립성 - 테이블 구조가 변경되어도 뷰를 사용하는 응용 프로그램은 변경하지 않아도 된다.
+    나. 편리성 - 복잡한 질의를 뷰로 생성함으로써 관련 질의를 단순하게 작성할 수 잇다.
+    다. 보안선 - 뷰를 생성할 때 칼럼을 빼고 생성 함으로 숨기고 싶은 데이터를 숨길 수 있다.
+    라. 직관성 - 변경되지 않는 데이터이기 때문에 직관 적으로 데이터를 볼 수 있다.
+
+7. JOIN 되는 테이블이 기준이 되어 조건에 맞지 않아도 NULL 값을 표현하는 JOIN 은?
+    가. INNER JOIN
+    나. LEFT JOIN
+    다. RIGHT JOIN
+    라. FULL OUTER JOIN
+
+8. 잘못된 쿼리는?
+    가. SELECT A.CID
+    나. FROM DETAIL A
+    다. JOIN FILE F ON A.CID = F.CID
+    라. AND A.CID = '00234'
+
+9. 여러개의 SQL 문의 결과에 대한 교집합. 중복된 행은 하나의 행으로 만드는 집합 연산자는?
+    가. UNION
+    나. UNION ALL
+    다. INTERSECT
+    라. EXCEPT
+
+10. 테이블간 JOIN 조건이 없는 경우 생길 수 있는 모든 데이터의 조합을 말하는 JOIN 은?
+    가. CROSS JOIN
+    나. INNER JOIN
+    다. OUTER JOIN
+    라. NATURAL JOIN
